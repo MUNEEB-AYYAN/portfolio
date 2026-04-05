@@ -42,6 +42,7 @@ export default function Contact() {
     // Wire up to EmailJS, Formspree, or any backend here
     setSent(true)
     setTimeout(() => setSent(false), 3500)
+    
   }
 
   const socials = [
